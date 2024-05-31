@@ -9,7 +9,7 @@ import Testimonial from "./components/Testimonial/Testimonial.jsx";
 import Contact from "./components/contact/contact.jsx";
 import Footer from "./components/footer/footer.jsx";
 import Vidioplyer from '../src/components/vidioplayer/player.jsx';
-import Slider from "./components/sliders/sliders.jsx";
+// import Slider from "./components/sliders/sliders.jsx";
 
 function App() {
 
@@ -26,7 +26,7 @@ function App() {
       <div className="container">
 
         <Title subtitle="Ours Events" title="Memories" />
-        <Slider />
+        {/* <Slider /> */}
         {/* <Slider slides={slides} /> */}
         <Title subtitle="Over Services" title="What we Offer" />
         <Program />
